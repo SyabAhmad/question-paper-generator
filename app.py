@@ -74,20 +74,12 @@ def MainFunction(inputMessage):
         with open("data.txt", "a") as file:
             file.write(f'[{index}:{text}]\n\n')
             index += 1
-        
-        
-        textSize = len(text)
         col1, col2 = st.columns([1,10])
         with col1:  
             st.success(f'👨‍💻')
         with col2:
             st.success(f'{text}')
-            col1, col2 = st.columns([8,4])
-            with col1:
-                st.code(f'Total Words Generated: {textSize}')
-            with col2:
-                pass
-                # copyButton = st.button("Copy: Not Working yet",on_click=st.balloons)
+
                 
 
 inputMessage = st.text_input("book name, class, chapter name, advance or basic")
