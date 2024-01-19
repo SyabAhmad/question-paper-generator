@@ -2,18 +2,33 @@ import streamlit as st
 import time
 import backend.generate as generatesRespose
 
-st.header("Hello to paper generater")
-st.subheader("Instructions on how to use:")
+st.header("Paper Generator App")
 st.markdown("""
             
-- Book Name
+Hello and welcome to the Paper Generator App! This application helps you generate papers for various subjects based on your specified criteria. Whether you are a student looking for practice papers or an educator creating assessments, this tool has got you covered.
 
-- Class 
+## Instructions on How to Use
 
-- Chapter Name
+1. **Book Name:** Enter the name of the book related to the subject.
 
-- advance or basic
+2. **Class:** Specify the class or semester for which you want to generate the paper.
 
+3. **Chapter Name:** Enter the name of the chapter or topic for the paper.
+
+4. **Advanced or Basic:** Choose the difficulty level, whether advanced or basic.
+
+### Example Usage
+
+For example, to generate a paper for Software Engineering in the 7th semester, focusing on the UML chapter with basic difficulty:
+
+- **Book Name:** Software Engineering
+- **Class:** 7 Semester
+- **Chapter Name:** UML
+- **Advanced or Basic:** Basic
+
+### Select Paper Type
+
+Choose the type of paper you want to generate:
             
             """)
 
