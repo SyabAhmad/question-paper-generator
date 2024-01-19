@@ -71,7 +71,8 @@ def MainFunction(inputMessage):
             with col1:
                 st.code(f'Total Words Generated: {textSize}')
             with col2:
-                copyButton = st.button("Copy: Not Working yet",on_click=st.balloons)
+                pass
+                # copyButton = st.button("Copy: Not Working yet",on_click=st.balloons)
                 
 
 inputMessage = st.text_input("book name, class, chapter name, advance or basic")
